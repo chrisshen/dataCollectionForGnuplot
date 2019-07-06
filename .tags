@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CSVLineDataToVec	EDCAPlot/plotScript_EDCA.cpp	/^CSVLineDataToVec(string line) {$/;"	f
+CSVLineDataToVec	HCMACPlot/plotScript.cpp	/^CSVLineDataToVec(string line) {$/;"	f
+EDCA	EDCAPlot/plotScript_EDCA.cpp	/^EDCA(	struct dirent 	*entry, $/;"	f
+EDCA	HCMACPlot/plotScript.cpp	/^void EDCA(	struct dirent* entry, $/;"	f
+HCMAC	HCMACPlot/plotScript.cpp	/^HCMAC(	struct dirent* 	entry, $/;"	f
+SAINTP	STMACPlot/plotScript_STMAC.cpp	/^SAINTP(	string 			dir_name,$/;"	f
+SAINTP	plotScript.cpp	/^SAINTP(	string 			dir_name,$/;"	f
+SCMAC	EDCAPlot/plotScript_EDCA.h	47;"	d
+SCMAC	STMACPlot/plotScript_STMAC.cpp	/^SCMAC(	struct dirent 	*entry, $/;"	f
+SCMAC	plotScript.cpp	/^SCMAC(	struct dirent 	*entry, $/;"	f
+SCMAC	plotScript.h	47;"	d
+SCMAC_LineDataToVec	EDCAPlot/plotScript_EDCA.cpp	/^SCMAC_LineDataToVec(string line) {$/;"	f
+SCMAC_LineDataToVec	HCMACPlot/plotScript.cpp	/^SCMAC_LineDataToVec(string line) {$/;"	f
+SCMAC_LineDataToVec	STMACPlot/plotScript_STMAC.cpp	/^SCMAC_LineDataToVec(string line) {$/;"	f
+SCMAC_LineDataToVec	plotScript.cpp	/^SCMAC_LineDataToVec(string line) {$/;"	f
+STMAC	EDCAPlot/plotScript_EDCA.h	46;"	d
+STMAC	HCMACPlot/plotScript.h	46;"	d
+STMAC	STMACPlot/plotScript_STMAC.cpp	/^STMAC(	struct dirent 	*entry, $/;"	f
+STMAC	plotScript.h	46;"	d
+STMAC_LineDataToVec	STMACPlot/plotScript_STMAC.cpp	/^STMAC_LineDataToVec(string line) {$/;"	f
+STMAC_collectData	STMACPlot/plotScript_STMAC.cpp	/^STMAC_collectData(	struct dirent *entry,$/;"	f
+STMAC_collectData_forEDCAd	STMACPlot/plotScript_STMAC.cpp	/^STMAC_collectData_forEDCAd(	struct dirent *entry,$/;"	f
+STMAC_collectData_forEDCAn	STMACPlot/plotScript_STMAC.cpp	/^STMAC_collectData_forEDCAn(	struct dirent *entry,$/;"	f
+STMAC_collectData_forLMA	STMACPlot/plotScript_STMAC.cpp	/^STMAC_collectData_forLMA(	struct dirent *entry,$/;"	f
+combine3DData	EDCAPlot/plotScript_EDCA.cpp	/^combine3DData( dataMapType data, float xAxis, dataVecTupType& dataReturn){$/;"	f
+combine3DData	HCMACPlot/plotScript.cpp	/^combine3DData( dataMapType data, float xAxis, dataVecTupType& dataReturn){$/;"	f
+combine3DData	STMACPlot/plotScript_STMAC.cpp	/^combine3DData( dataMapType data, float xAxis, dataVecTupType& dataReturn){$/;"	f
+combine3DData	plotScript.cpp	/^combine3DData( dataMapType data, float xAxis, dataVecTupType& dataReturn){$/;"	f
+computeAverage	EDCAPlot/plotScript_EDCA.cpp	/^computeAverage( dataMapVecType data ){$/;"	f
+computeAverage	HCMACPlot/plotScript.cpp	/^computeAverage( dataMapVecType data ){$/;"	f
+computeAverage	STMACPlot/plotScript_STMAC.cpp	/^computeAverage( dataMapVecType data ){$/;"	f
+computeAverage	plotScript.cpp	/^computeAverage( dataMapVecType data ){$/;"	f
+computeConfiInterval	EDCAPlot/plotScript_EDCA.cpp	/^computeConfiInterval( dataMapVecType data, dataMapType var ){$/;"	f
+computeConfiInterval	HCMACPlot/plotScript.cpp	/^computeConfiInterval( dataMapVecType data, dataMapType var ){$/;"	f
+computeConfiInterval	STMACPlot/plotScript_STMAC.cpp	/^computeConfiInterval( dataMapVecType data, dataMapType var ){$/;"	f
+computeConfiInterval	plotScript.cpp	/^computeConfiInterval( dataMapVecType data, dataMapType var ){$/;"	f
+computePercentage	EDCAPlot/plotScript_EDCA.cpp	/^computePercentage( dataMapType data, int sum ){$/;"	f
+computePercentage	HCMACPlot/plotScript.cpp	/^computePercentage( dataMapType data, int sum ){$/;"	f
+computePercentage	STMACPlot/plotScript_STMAC.cpp	/^computePercentage( dataMapType data, int sum ){$/;"	f
+computePercentage	plotScript.cpp	/^computePercentage( dataMapType data, int sum ){$/;"	f
+computeVariance	EDCAPlot/plotScript_EDCA.cpp	/^computeVariance( dataMapVecType data, dataMapType mean ){$/;"	f
+computeVariance	HCMACPlot/plotScript.cpp	/^computeVariance( dataMapVecType data, dataMapType mean ){$/;"	f
+computeVariance	STMACPlot/plotScript_STMAC.cpp	/^computeVariance( dataMapVecType data, dataMapType mean ){$/;"	f
+computeVariance	plotScript.cpp	/^computeVariance( dataMapVecType data, dataMapType mean ){$/;"	f
+dataMapType	EDCAPlot/plotScript_EDCA.h	/^typedef std::map< float, double> dataMapType;$/;"	t
+dataMapType	HCMACPlot/plotScript.h	/^typedef std::map< double, double> dataMapType;$/;"	t
+dataMapType	STMACPlot/plotScript_STMAC.h	/^typedef std::map< float, double> dataMapType;$/;"	t
+dataMapType	plotScript.h	/^typedef std::map< float, double> dataMapType;$/;"	t
+dataMapVecType	EDCAPlot/plotScript_EDCA.h	/^typedef std::map< float, std::vector<double> > dataMapVecType;$/;"	t
+dataMapVecType	HCMACPlot/plotScript.h	/^typedef std::map< double, std::vector<double> > dataMapVecType;$/;"	t
+dataMapVecType	STMACPlot/plotScript_STMAC.h	/^typedef std::map< float, std::vector<double> > dataMapVecType;$/;"	t
+dataMapVecType	plotScript.h	/^typedef std::map< float, std::vector<double> > dataMapVecType;$/;"	t
+dataMultiMapMapType	EDCAPlot/plotScript_EDCA.h	/^typedef std::multimap<float, std::map< float, double> > dataMultiMapMapType;$/;"	t
+dataMultiMapMapType	HCMACPlot/plotScript.h	/^typedef std::multimap<float, std::map< float, double> > dataMultiMapMapType;$/;"	t
+dataMultiMapMapType	STMACPlot/plotScript_STMAC.h	/^typedef std::multimap<float, std::map< float, double> > dataMultiMapMapType;$/;"	t
+dataMultiMapMapType	plotScript.h	/^typedef std::multimap<float, std::map< float, double> > dataMultiMapMapType;$/;"	t
+dataMultiMapType	EDCAPlot/plotScript_EDCA.h	/^typedef std::multimap<float, double> dataMultiMapType;$/;"	t
+dataMultiMapType	HCMACPlot/plotScript.h	/^typedef std::multimap<float, double> dataMultiMapType;$/;"	t
+dataMultiMapType	STMACPlot/plotScript_STMAC.h	/^typedef std::multimap<float, double> dataMultiMapType;$/;"	t
+dataMultiMapType	plotScript.h	/^typedef std::multimap<float, double> dataMultiMapType;$/;"	t
+dataVecTupType	EDCAPlot/plotScript_EDCA.h	/^typedef std::vector< std::tuple<float, float, double> > dataVecTupType;$/;"	t
+dataVecTupType	HCMACPlot/plotScript.h	/^typedef std::vector< std::tuple<float, float, double> > dataVecTupType;$/;"	t
+dataVecTupType	STMACPlot/plotScript_STMAC.h	/^typedef std::vector< std::tuple<float, float, double> > dataVecTupType;$/;"	t
+dataVecTupType	plotScript.h	/^typedef std::vector< std::tuple<float, float, double> > dataVecTupType;$/;"	t
+getCDF	EDCAPlot/plotScript_EDCA.cpp	/^getCDF( dataMapVecType data ){$/;"	f
+getCDF	HCMACPlot/plotScript.cpp	/^getCDF( dataMapVecType data ){$/;"	f
+getCDF	STMACPlot/plotScript_STMAC.cpp	/^getCDF( dataMapVecType data ){$/;"	f
+getCDF	plotScript.cpp	/^getCDF( dataMapVecType data ){$/;"	f
+getLastLine	EDCAPlot/plotScript_EDCA.cpp	/^getLastLine(std::ifstream& in) {$/;"	f
+getLastLine	HCMACPlot/plotScript.cpp	/^getLastLine(std::ifstream& in) {$/;"	f
+getLastLine	STMACPlot/plotScript_STMAC.cpp	/^getLastLine(std::ifstream& in) {$/;"	f
+getLastLine	plotScript.cpp	/^getLastLine(std::ifstream& in) {$/;"	f
+ignoreline	EDCAPlot/plotScript_EDCA.cpp	/^ignoreline(std::ifstream& in, std::ifstream::pos_type& pos) {$/;"	f
+ignoreline	HCMACPlot/plotScript.cpp	/^ignoreline(std::ifstream& in, std::ifstream::pos_type& pos) {$/;"	f
+ignoreline	STMACPlot/plotScript_STMAC.cpp	/^ignoreline(std::ifstream& in, std::ifstream::pos_type& pos) {$/;"	f
+ignoreline	plotScript.cpp	/^ignoreline(std::ifstream& in, std::ifstream::pos_type& pos) {$/;"	f
+lineDataReturn	EDCAPlot/plotScript_EDCA.cpp	/^lineDataReturn(string line) {$/;"	f
+lineDataReturn	HCMACPlot/plotScript.cpp	/^lineDataReturn(string line) {$/;"	f
+lineDataReturn	STMACPlot/plotScript_STMAC.cpp	/^lineDataReturn(string line) {$/;"	f
+lineDataReturn	plotScript.cpp	/^lineDataReturn(string line) {$/;"	f
+lineDataToVec	HCMACPlot/plotScript.cpp	/^lineDataToVec(std::string line, vector<double>& lineData){$/;"	f
+main	EDCAPlot/plotScript_EDCA.cpp	/^main(){$/;"	f
+main	HCMACPlot/plotScript.cpp	/^main(){$/;"	f
+main	STMACPlot/plotScript_STMAC.cpp	/^main(){$/;"	f
+main	plotScript.cpp	/^main(){$/;"	f
+saveDataToFile	EDCAPlot/plotScript_EDCA.cpp	/^saveDataToFile(string fileName, dataMapType data ){$/;"	f
+saveDataToFile	EDCAPlot/plotScript_EDCA.cpp	/^saveDataToFile(string fileName, dataMapType dataMean, dataMapType dataConfiInterval){$/;"	f
+saveDataToFile	EDCAPlot/plotScript_EDCA.cpp	/^saveDataToFile(string fileName, dataMultiMapType data ){$/;"	f
+saveDataToFile	EDCAPlot/plotScript_EDCA.cpp	/^saveDataToFile(string fileName, dataVecTupType data ){$/;"	f
+saveDataToFile	HCMACPlot/plotScript.cpp	/^saveDataToFile(string fileName, dataMapType data ){$/;"	f
+saveDataToFile	HCMACPlot/plotScript.cpp	/^saveDataToFile(string fileName, dataMapType dataMean, dataMapType dataConfiInterval){$/;"	f
+saveDataToFile	HCMACPlot/plotScript.cpp	/^saveDataToFile(string fileName, dataMultiMapType data ){$/;"	f
+saveDataToFile	HCMACPlot/plotScript.cpp	/^saveDataToFile(string fileName, dataVecTupType data ){$/;"	f
+saveDataToFile	STMACPlot/plotScript_STMAC.cpp	/^saveDataToFile(string fileName, dataMapType data ){$/;"	f
+saveDataToFile	STMACPlot/plotScript_STMAC.cpp	/^saveDataToFile(string fileName, dataMapType dataMean, dataMapType dataConfiInterval){$/;"	f
+saveDataToFile	STMACPlot/plotScript_STMAC.cpp	/^saveDataToFile(string fileName, dataMultiMapType data ){$/;"	f
+saveDataToFile	STMACPlot/plotScript_STMAC.cpp	/^saveDataToFile(string fileName, dataVecTupType data ){$/;"	f
+saveDataToFile	plotScript.cpp	/^saveDataToFile(string fileName, dataMapType data ){$/;"	f
+saveDataToFile	plotScript.cpp	/^saveDataToFile(string fileName, dataMapType dataMean, dataMapType dataConfiInterval){$/;"	f
+saveDataToFile	plotScript.cpp	/^saveDataToFile(string fileName, dataMultiMapType data ){$/;"	f
+saveDataToFile	plotScript.cpp	/^saveDataToFile(string fileName, dataVecTupType data ){$/;"	f
+saveDelay	EDCAPlot/plotScript_EDCA.cpp	/^saveDelay( int index, vector<double> lineData, dataMapVecType& data, float xAxis ){$/;"	f
+saveDelay	HCMACPlot/plotScript.cpp	/^saveDelay( int index, vector<double> lineData, dataMapVecType& data, double xAxis ){$/;"	f
+saveDelay	STMACPlot/plotScript_STMAC.cpp	/^saveDelay( int index, vector<double> lineData, dataMapVecType& data, float xAxis ){$/;"	f
+saveDelay	plotScript.cpp	/^saveDelay( int index, vector<double> lineData, dataMapVecType& data, float xAxis ){$/;"	f

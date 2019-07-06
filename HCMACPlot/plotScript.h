@@ -43,11 +43,11 @@ Debug with arg: -DDEBUG
 #include <algorithm>    // std::sort
 #include <tuple>        // std::tuple, std::get, std::tie, std::ignore
 
-#define STMAC;
-#define SCMAC;
+#define STMAC ;
+// #define SCMAC ;
 
-typedef std::map< float, std::vector<double> > dataMapVecType;
-typedef std::map< float, double> dataMapType;
+typedef std::map< double, std::vector<double> > dataMapVecType;
+typedef std::map< double, double> dataMapType;
 typedef std::multimap<float, double> dataMultiMapType;
 typedef std::multimap<float, std::map< float, double> > dataMultiMapMapType;
 typedef std::vector< std::tuple<float, float, double> > dataVecTupType;
@@ -86,16 +86,31 @@ void saveDataToFile(std::string, dataMultiMapType );
 
 void saveDataToFile(std::string, dataMapType );
 
-void SCMAC(		struct dirent*, 
-				DIR*, 
-				dataMapVecType&, 
-				dataMapVecType&, 
-				dataMapVecType& );
+void HCMAC(	struct dirent*, 
+											DIR*, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType& );
 
-void SAINTP(	struct dirent, 
-				DIR, 
-				dataMapVecType&,
-				dataMapVecType&, 
-				dataMapVecType&,
-				dataMapVecType&,
-				dataMapVecType& );
+void lineDataToVec(std::string line, std::vector<double>&);
+
+void EDCA(	struct dirent*, 
+											DIR*, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&
+											);
+
+void OCB(		std::string,
+						struct dirent*, 
+											DIR*, 
+											dataMapVecType&, 
+											dataMapVecType&, 
+											dataMapVecType&
+											);
+
+std::vector<double> CSVLineDataToVec(std::string line);

@@ -211,7 +211,7 @@ CSVLineDataToVec(string line) {
 		}
 
 		// check the last "," without next item
-		if ( posDelimiterEnd = line.length()){
+		if ( posDelimiterEnd == line.length()){
 			break;
 		}
 	}

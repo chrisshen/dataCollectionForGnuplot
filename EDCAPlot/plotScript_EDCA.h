@@ -101,8 +101,8 @@ void saveDataToFile(std::string, dataMapType );
 // 				dataMapVecType& );
 
 void EDCA(		struct dirent*, 
-				DIR*, 
-				dataMapVecType&
-				);
+							DIR*, 
+							dataMapVecType&
+							);
 
 std::vector<double> CSVLineDataToVec(std::string line);

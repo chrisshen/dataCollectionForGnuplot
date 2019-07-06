@@ -511,24 +511,14 @@ main(){
 	// 18. 20160604_mEVs_SP 		mEVs SAINT+, there is a bad SP abondaned
 
 	/**************************************
-		SCMAC data
+		HCMAC data
 	***************************************/
-	char dir_name[] = "/home/chrisomnet/usr/veins_SCMAC/examples/veins/result/20161129_SCMAC";
-	// 1. 20161124_SCMAC			SCMAC with density
-	// 2. 20161125_SCMAC			...
-	// 3. 20161127_SCMAC			...
-	// 4. 20161129_SCMAC			...
+	char dir_name[] = "/home/chris/SimulationData/HCMAC-project/HCMAC-RandSent-TSAlgo-170728";
+	// 1. HCMAC-RandSent-TSAlgo-170728			HCMAC randonm dest with time-slto algo
+	// 2. HCMAC-RandSent-NoTSAlgo-170728		HCMAC randonm dest with no time-slto algo
+	// 3. HCMAC-Unicast-NoTSAlgo-170729			HCMAC emergency dest with no time-slto algo
+	// 4. HCMAC-Unicast-TSAlgo-170729				HCMAC emergency dest with time-slto algo
 	// 5. 20161130_WAVE				WAVE with density
-
-	/**************************************
-		STMAC data
-	***************************************/
-	// char dir_name[] = "/home/chrisomnet/usrtmac/veins_stableTMAC/examples/veins/result/STMAC";
-	// 1. STMAC			STMAC with density
-	// 2. WPCF			...
-	// 3. LMA			...
-	// 4. 			...
-	// 5. 				
 
 	string dir_name_string = dir_name;
 	string dataType;
